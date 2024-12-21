@@ -1,0 +1,36 @@
+/* .featured{
+  display: flex;
+} */
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Adjusts based on available space */
+  gap: 20px; /* Gap between the cards */
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.text1{
+background: #FF0000;
+font-size: 25px;
+background: linear-gradient(to left, #FF0000 21%, #000000 85%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.text2{
+  font-weight: bold;
+}
+
+.featured .box {
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  border-radius: 6px;
+  text-align: center;
+  padding : 25px 100px 25px 100px;
+  cursor: pointer;
+  /* width: 100px; */
+}
+.featured img {
+  width: 65px;
+  height: 65px;
+  margin: auto;
+}
